@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JogoDaForca.ConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1459f4f22dc5ceb36e39127f3df3dbf0fb1e9488")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9cde7c35cd97115ebddb970967afba8e4d58b26f")]
 [assembly: System.Reflection.AssemblyProductAttribute("JogoDaForca.ConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JogoDaForca.ConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

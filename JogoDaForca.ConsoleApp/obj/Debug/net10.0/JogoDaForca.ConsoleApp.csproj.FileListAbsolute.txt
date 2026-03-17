@@ -12,3 +12,4 @@ C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\obj\Deb
 C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\obj\Debug\net10.0\JogoDaForca.ConsoleApp.pdb
 C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\obj\Debug\net10.0\JogoDaForca.ConsoleApp.genruntimeconfig.cache
 C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\obj\Debug\net10.0\ref\JogoDaForca.ConsoleApp.dll
+C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\obj\Debug\net10.0\JogoDaForca.ConsoleApp.sourcelink.json
