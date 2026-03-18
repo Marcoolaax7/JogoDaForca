@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System.Net.Quic;
+using System.Security.Cryptography;
 
 namespace JogoDaForca.ConsoleApp;
 
@@ -17,8 +18,8 @@ class Program
     {
         while (true)
         {
-            ExibirCabecalho();
 
+            ExibirCabecalho();
 
             //1. Ao iniciar o jogo, deve ser selecionada uma palavra aleatória à partir de uma lista.
             string palavraAleatoria = EscolherPalavraAleatoria();
@@ -33,7 +34,9 @@ class Program
             ExecutarTentativas(letrasAcertadas, palavraAleatoria);
 
             //4. Deve-se apresentar um desenho da forca sendo atualizado a cada erro.
-            
+
+
+
             if (!JogadorDesejaContinuar())
                 break;
         }
@@ -83,9 +86,13 @@ class Program
 
     static void ExecutarTentativas(char[] letrasAcertadas, string palavraAleatoria)
     {
+
+
         bool jogadorAcertouPalavra = false;
         bool jogadorPerdeu = false;
         int quantidadeErros = 0;
+
+
 
         while (!jogadorAcertouPalavra && !jogadorPerdeu)
         {
@@ -93,6 +100,14 @@ class Program
 
             Console.WriteLine("Palavra: " + string.Join(" ", letrasAcertadas));
             Console.WriteLine("Erros cometidos: " + quantidadeErros);
+
+            if (quantidadeErros == 5)
+            {
+                Console.WriteLine("--------------------");
+                Console.WriteLine($"Voce PERDEU! A palavra era {palavraAleatoria}.");
+                Console.WriteLine("--------------------");
+                break;
+            }
 
             Console.Write("\nDigite uma letra: ");
             string? strLetra = Console.ReadLine();
@@ -123,19 +138,21 @@ class Program
             jogadorAcertouPalavra = palavraAleatoria == string.Join("", letrasAcertadas);
             jogadorPerdeu = quantidadeErros > 5;
 
+
+
             if (jogadorAcertouPalavra)
             {
+                DesenharForca(quantidadeErros);
+
+                Console.WriteLine("Palavra: " + string.Join(" ", letrasAcertadas));
+                Console.WriteLine("Erros cometidos: " + quantidadeErros);
+
                 Console.WriteLine("--------------------");
                 Console.WriteLine($"Você acertou! A palavra secreta era {palavraAleatoria}.");
                 Console.WriteLine("--------------------");
             }
-            else if (jogadorPerdeu)
-            {
-                Console.WriteLine("--------------------");
-                Console.WriteLine($"Que azar! A palavra era {palavraAleatoria}.");
-                Console.WriteLine("--------------------");
-            }
-            Console.ReadLine();
+
+
         }
     }
 
@@ -163,9 +180,9 @@ class Program
             Console.WriteLine(@" ___________        ");
             Console.WriteLine(@" |/        |        ");
             Console.WriteLine(@" |         o        ");
-            Console.WriteLine(@" |             ");
-            Console.WriteLine(@" |                ");
-            Console.WriteLine(@" |                ");
+            Console.WriteLine(@" |                  ");
+            Console.WriteLine(@" |                  ");
+            Console.WriteLine(@" |                  ");
             Console.WriteLine(@" |                  ");
             Console.WriteLine(@" |                  ");
             Console.WriteLine(@"_|____              ");
@@ -175,7 +192,7 @@ class Program
             Console.WriteLine(@" ___________        ");
             Console.WriteLine(@" |/        |        ");
             Console.WriteLine(@" |         o        ");
-            Console.WriteLine(@" |        /|       ");
+            Console.WriteLine(@" |        /|        ");
             Console.WriteLine(@" |                  ");
             Console.WriteLine(@" |                  ");
             Console.WriteLine(@" |                  ");
@@ -188,7 +205,7 @@ class Program
             Console.WriteLine(@" |/        |        ");
             Console.WriteLine(@" |         o        ");
             Console.WriteLine(@" |        /|\       ");
-            Console.WriteLine(@" |         |       ");
+            Console.WriteLine(@" |         |        ");
             Console.WriteLine(@" |                  ");
             Console.WriteLine(@" |                  ");
             Console.WriteLine(@" |                  ");
