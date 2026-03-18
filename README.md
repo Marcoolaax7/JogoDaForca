@@ -78,4 +78,4 @@ O sistema é dividido em métodos que organizam a lógica do jogo:
  ## Requisitos
  - .NET SDK 10.0
 
-[forca2.gif]: ./docs/forca2.gif
+[forca2.gif]: ./docs/forca2.gif.
