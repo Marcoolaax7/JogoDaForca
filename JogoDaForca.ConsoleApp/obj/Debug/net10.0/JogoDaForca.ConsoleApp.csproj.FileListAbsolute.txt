@@ -1,0 +1,15 @@
+C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\bin\Debug\net10.0\JogoDaForca.ConsoleApp.exe
+C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\bin\Debug\net10.0\JogoDaForca.ConsoleApp.deps.json
+C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\bin\Debug\net10.0\JogoDaForca.ConsoleApp.runtimeconfig.json
+C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\bin\Debug\net10.0\JogoDaForca.ConsoleApp.dll
+C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\bin\Debug\net10.0\JogoDaForca.ConsoleApp.pdb
+C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\obj\Debug\net10.0\JogoDaForca.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\obj\Debug\net10.0\JogoDaForca.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\obj\Debug\net10.0\JogoDaForca.ConsoleApp.AssemblyInfo.cs
+C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\obj\Debug\net10.0\JogoDaForca.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\obj\Debug\net10.0\JogoDaForca.ConsoleApp.dll
+C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\obj\Debug\net10.0\refint\JogoDaForca.ConsoleApp.dll
+C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\obj\Debug\net10.0\JogoDaForca.ConsoleApp.pdb
+C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\obj\Debug\net10.0\JogoDaForca.ConsoleApp.genruntimeconfig.cache
+C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\obj\Debug\net10.0\ref\JogoDaForca.ConsoleApp.dll
+C:\Users\User\Documents\academia 2026\JogoDaForca\JogoDaForca.ConsoleApp\obj\Debug\net10.0\JogoDaForca.ConsoleApp.sourcelink.json
